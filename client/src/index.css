@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #febd69;
+  --primary-shade: #d49644;
+}
+
+@layer base {
+  .hero__img::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(
+      to bottom,
+      transparent,
+      rgba(255, 255, 255, 0.313),
+      rgb(255, 255, 0)
+    );
+  }
+}
+
+/* Payment page */
+
+.payment-page__flex img {
+  width: 80px !important;
+  margin-top: 20px;
+}
