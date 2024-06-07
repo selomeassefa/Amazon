@@ -32,7 +32,7 @@ export default function Header() {
               </span>
               <div className="">
                 <p className="text-[10px]">Delivered to</p>
-                <span className="">Ethiopia</span>
+                <span className="">USA</span>
               </div>
             </div>
           </div>
